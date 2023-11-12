@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Reservation</title>
+    <link href="index.css" rel="stylesheet" type="text/css" />
+    
+</head>
+<body>
+    <!--Add a form with h1-->
+    <h1>Reservation Form</h1>
+    <form action="reservation_process" method="post">
+        <!-- Add a label for name-->
+        <label for="name">Name:</label><br>
+        <!--Add input type, id, name and required attributes-->
+        <input type="text" id="name" name="name" required><br>
+        <!-- Add a label for email-->
+
+        <label for="email">Email:</label><br>
+        <!--Add input type, id, name and required attributes-->
+        <input type="email" id="email" name="email" required><br>
+        <!-- Add a label for phone number-->
+
+        <label for="phone">Phone Number:</label><br>
+        <!--Add input type, id, name and required attributes-->
+        <input type="tel" id="phone" name="phone" required><br>
+        <!-- Add a label for reservation date-->
+
+        <label for="date">Reservation Date:</label><br>
+        <!--Add input type, id, name and required attributes-->
+        <input type="date" id="date" name="date" required><br>
+        <!-- Add a label reservation time-->
+
+        <label for="time">Reservation Time:</label><br>
+        <!--Add input type, id, name and required attributes-->
+        <input type="time" id="time" name="time" required><br>
+        <!-- Add a label for guests-->
+
+        <label for="guests">Number of Guests:</label><br>
+        <!--Add input type, id, name and required attributes-->
+        <input type="number" id="guests" name="guests" min="1" required><br>
+        <!-- Add a label for special_requests-->
+
+        <label for="special_requests">Special Requests:</label><br>
+        <textarea id="special_requests" name="special_requests" rows="4"></textarea><br>
+        <!-- Add a submit button-->
+
+        <button type="submit">Submit </button>
+    </form>
+</body>
+</html>

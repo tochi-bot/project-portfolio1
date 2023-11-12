@@ -1,0 +1,124 @@
+header { color: brown; padding: 10px; display: flex; justify-content: space-between; flex-direction: row}
+body{background-color: beige;}
+#about{color: blue; align-content: space-between;}
+#contact{color: indianred;}
+#menu{color: darkorchid;}
+/* style for the footer*/
+footer{ color: black; font-weight: bold;}
+/* style for the search input*/
+.search-input {  margin-right: 10px;}
+p {text-transform:none;}
+
+
+/* Add style on the lists*/
+/*  Removes the bullets. A navigation bar does not need list markers
+Set margin: 0; and padding: 0; to remove browser default settings*/
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+  }
+/* add display: block; to Display the links as block elements which makes the whole link area clickable*/
+  li a {
+	display: block;
+	background-color: #dddddd;
+  }
+  /* Keek left the navigation links and add a border to the navigation bar.*/
+  
+li {
+	text-align: left;
+	border-bottom: 1px solid #555;
+  }
+  
+  li:last-child {
+	border-bottom: none;
+  }
+  /* Add an "active" class to the current link to let the user know which page he/she is on:*/
+  li a.active {
+	background-color: #04AA6D;
+	color: white;
+  }
+
+  li a:hover:not(.active) {
+	background-color: #555;
+	color: white;}
+	/* Creat a horizontal navigation bar using float for the <li> elements, and specify a layout for the navigation links:*/
+
+
+	  li a {
+		display: block;
+		padding: 8px;
+		background-color: #dddddd;
+		
+	  }
+button[type=submit]{background-color: green; width: 40%; height: 40px; border-radius: 12px;
+}
+input[type=text], input[type=email], input[type=tel], input[type=date], input[type=time], input[type=number] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+  p {color: green; font-size: 20px;}
+
+  #special_requests{width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box; border-radius: 12px;}
+
+    #message{width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box; border-radius: 12px;}
+
+        
+        input:focus{
+            background-color: whitesmoke;
+        }
+        section>p{color: black;}
+		/* Change the link color on hover */
+		 a:hover {
+			text-decoration: none;
+			color: chocolate;
+		}
+
+
+		footer {
+			background-color: #6f4e37;
+			padding: 1em;
+			text-align: center;
+		}
+
+		/* 
+		Add a child selector to this css declaration to target only 
+		<span> elements that are children of the <footer> 
+		*/
+		 footer>span{
+			color: silver;
+		}
+
+		/* 
+		Add a child selector this css declaration to target only 
+		<a> elements that are children of the <footer> 
+		*/
+		 footer> a{
+			color: beige;
+			text-decoration: none;
+			padding: 0 15px;
+		}
+
+		/* 
+		Add a child selector this css declaration to target only 
+		<p> elements that are children of the <footer> 
+		*/
+		 footer> p{
+			color: silver;
+		}
+    /* add purple color to h3 inside the unorder list*/
+
+    ul li h3{color: purple;}
+
+	
+
+	
+	
