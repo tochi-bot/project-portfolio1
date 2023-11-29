@@ -29,7 +29,7 @@
                 <p>Italian-style bruschetta with tomatoes, garlic, and basil.</p>
                 <p>Price: £10.99</p>
                 <label for="quantity">Quantity:</label><br>
-        <input type="number" id="quantity" name="quantity" min="1" required><br>
+        <input type="number" id="quantity2" name="quantity" min="1" required><br>
                 <button onclick="addToCart('spring rolls', 10.99)"> Add To Cart</button>
             </li>
             <li>
@@ -38,7 +38,7 @@
                 <p>Classic hummus served with pita bread and vegetables.</p>
                 <p>Price: £10.99</p>
                 <label for="quantity">Quantity:</label><br>
-        <input type="number" id="quantity" name="quantity" min="1" required><br>
+        <input type="number" id="quantity3" name="quantity" min="1" required><br>
                 <button onclick="addToCart('spring rolls', 10.99)"> Add To Cart</button>
             </li>
         </ul>
@@ -53,7 +53,7 @@
                 <p>A traditional Thai dish with stir-fried noodles, shrimp, and vegetables.</p>
                 <p>Price: £10.99</p>
                 <label for="quantity">Quantity:</label><br>
-        <input type="number" id="quantity" name="quantity" min="1" required><br>
+        <input type="number" id="quantity4" name="quantity" min="1" required><br>
                 <button onclick="addToCart('spring rolls', 10.99)"> Add To Cart</button>
             </li>
             <li>
@@ -62,7 +62,7 @@
                 <p>Italian-style breaded chicken topped with marinara sauce and melted cheese.</p>
                 <p>Price: £10.99</p>
                 <label for="quantity">Quantity:</label><br>
-        <input type="number" id="quantity" name="quantity" min="1" required><br>
+        <input type="number" id="quantity5" name="quantity" min="1" required><br>
                 <button onclick="addToCart('spring rolls', 10.99)"> Add To Cart</button>
             </li>
             <li>
@@ -71,7 +71,7 @@
                 <p>Indian-style vegetable curry served with basmati rice.</p>
                 <p>Price: £10.99</p>
                 <label for="quantity">Quantity:</label><br>
-        <input type="number" id="quantity" name="quantity" min="1" required><br> 
+        <input type="number" id="quantity6" name="quantity" min="1" required><br> 
                 <button onclick="addToCart('spring rolls', 10.99)"> Add To Cart</button>
 
                 <li>
@@ -80,9 +80,9 @@
                     <p>Indian-style vegetable curry served with basmati rice.</p>
                     <p>Price: £10.99</p>
                     <label for="quantity">Quantity:</label><br>
-            <input type="number" id="quantity" name="quantity" min="1" required><br> 
+            <input type="number" id="quantity7" name="quantity" min="1" required><br> 
                     <button onclick="addToCart('spring rolls', 10.99)"> Add To Cart</button>
-                    Injera 
+                    
                 </li>
 
                 <li>
@@ -91,11 +91,11 @@
                     <p>Indian-style vegetable curry served with basmati rice.</p>
                     <p>Price: £10.99</p>
                     <label for="quantity">Quantity:</label><br>
-            <input type="number" id="quantity" name="quantity" min="1" required><br> 
+            <input type="number" id="quantity8" name="quantity" min="1" required><br> 
                     <button onclick="addToCart('spring rolls', 10.99)"> Add To Cart</button>
-                    Injera 
+                    
                 </li>
-                Injera 
+            
             </li>
         </ul>
     </section>
@@ -108,7 +108,7 @@
                 <p>Classic Italian tiramisu with coffee-soaked ladyfingers and mascarpone cream.</p>
                 <p>Price: £10.99</p>
                 <label for="quantity">Quantity:</label><br>
-        <input type="number" id="quantity" name="quantity" min="1" required><br>
+        <input type="number" id="quantity9" name="quantity" min="1" required><br>
                 <button onclick="addToCart('spring rolls', 10.99)"> Add To Cart</button>
             </li>
             <li>
@@ -117,7 +117,7 @@
                 <p>Layers of phyllo dough, nuts, and honey in this sweet Mediterranean treat.</p>
                 <p>Price: £10.99</p>
                 <label for="quantity">Quantity:</label><br>
-        <input type="number" id="quantity" name="quantity" min="1" required><br>
+        <input type="number" id="quantity10" name="quantity" min="1" required><br>
                 <button onclick="addToCart('spring rolls', 10.99)"> Add To Cart</button>
             </li>
             <li>
@@ -126,7 +126,7 @@
                 <p>Thai dessert made with glutinous rice, fresh mango, and coconut milk.</p>
                 <p>Price: £10.99</p>
                 <label for="quantity">Quantity:</label><br>
-        <input type="number" id="quantity" name="quantity" min="1" required><br>
+        <input type="number" id="quantity11" name="quantity" min="1" required><br>
                 <button onclick="addToCart('spring rolls', 10.99)"> Add To Cart</button>
             </li>
         </ul>
@@ -138,68 +138,9 @@
         <button onclick="placeOrder()">Place Oreder</button>
 
     </section>
-
-
-    <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Place Your Order</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <h1>Menu - Place Your Order</h1>
     
-    <form action="process_order" method="post">
-        <h2>Appetizers</h2>
-        <label for="Appetizers">Select Appetizers:</label>
-        <select id="Appetizers" name="Appetizers">
-            <option value="spring-rolls">Spring Rolls</option>
-            <option value="bruschetta">Bruschetta</option>
-            <option value="hummus-platter">Hummus Platter</option>
-        </select><br>
-        <label for="quantity">Quantity:</label><br>
-        <input type="number" id="quantity" name="quantity" min="1" required><br>
-                <button onclick="addToCart('spring rolls', 10.99)"> Add To Cart</button><br>
 
-        <label for="main-courses">Select Main Courses:</label><br>
-        <select id="main-courses" name="Main-Courses">
-            <option value="pad-thai">Pad Thai</option>
-            <option value="chicken-parmesan">Chicken Parmesan</option>
-            <option value="vegetable-curry">Vegetable Curry</option>
 
-        </select><br>
-        <label for="quantity">Quantity:</label><br>
-        <input type="number" id="quantity" name="quantity" min="1" required><br>
-                <button onclick="addToCart('spring rolls', 10.99)"> Add To Cart</button><br>
-        
-
-        <label for="desserts">Select  Desserts:</label><br>
-        <select id="desserts" name="Desserts">
-            <option value="tiramisu">Tiramisu</option>
-            <option value="baklava">Baklava</option>
-            <option value="mango-sticky-rice">Vegetable Curry</option><br>
-            
-        </select>
-        <label for="quantity">Quantity:</label><br>
-        <input type="number" id="quantity" name="quantity" min="1" required><br>
-                <button onclick="addToCart('spring rolls', 10.99)"> Add To Cart</button><br>
-        
-        
-        <label for="special_requests">Special Requests:</label><br>
-        <textarea id="special_requests" name="special_requests" rows="4"></textarea>
-        
-        <label for="name">Your Name:</label><br>
-        <input type="text" id="name" name="name" required><br>
-        
-        <label for="email">Email:</label><br>
-        <input type="email" id="email" name="email" required><br>
-        
-        <button type="submit">Place Order</button>
-    </form>
-</body>
-</html>
 
 
 </body>
