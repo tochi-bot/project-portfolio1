@@ -8,7 +8,7 @@
 
 body{font-family: lato, sans-serif; font-weight: 300;
 	  background-color: whitesmoke; color: #3a3a3a;  overflow: auto;
-	font-family: 'Open Sans', sans-serif;}
+	}
 	/* heading and company logo*/
 	h1, h2{
 		font-family: oswald, sans-serif;
@@ -17,6 +17,7 @@ body{font-family: lato, sans-serif; font-weight: 300;
 		/* set letter spacing*/
 		letter-spacing: 5px;
 		color: rgb(165, 75, 42);
+		text-align: center;
 	}
 	/* style logo*/
 	#logo{
@@ -26,7 +27,7 @@ body{font-family: lato, sans-serif; font-weight: 300;
 	}
 	/* style Navigation links*/
 	#nav-menu{
-		font-size: 115%;
+		font-size: 110%;
 		letter-spacing: 5px;
 	}
 	/* set a matching line height for nav-menu and logo*/
@@ -53,13 +54,37 @@ body{font-family: lato, sans-serif; font-weight: 300;
 	.active{
 		border-bottom: solid #3a3a3a;
 	}
+	/*style nobis image*/
+	#nobis-image{height: 300px;
+	width: 100%;}
+	/* style cover-text*/
+	#cover-text, #cover-text h2{ color: #fff;
+
+	}
+
+	#cover-text{font-size: 125%; 
+		font-family: oswald, sans-serif;
+		text-transform: uppercase;
+		letter-spacing: 5px;
+		width: 300px;
+		height: 200px;
+		padding-top: 38px;
+		padding-left: 15px;
+		background-color: red;
+
+		bottom: 35px;
+		right: 150px;
+		position: absolute;
+	}
 
 header { color: rgb(165, 75, 42); padding: 0 1em;
 	 display: flex; justify-content: space-between; align-items: baseline; 
 	 flex-direction: row; position: relative; top: 20%; z-index: 99; width: 100%;;
 	box-shadow: 0 2px 2px; color:black } 
 	
-
+p{ font-family: oswald, sans-serif; font-weight: 300;
+	font-size: 110%; display: flex;
+}
 /* add display: block; to Display the links as block elements which makes the whole link area clickable*/
 li a {
 	display: block;
@@ -106,6 +131,9 @@ li {
 
 		footer {
 			height: 150px;
+			position: relative;
+		
+			
 		}
 		.social-sites{
 			text-align: center;
@@ -118,12 +146,6 @@ li {
 	padding: 5%;
 color: chocolate;}
 
-	
-
-		
-    /* add purple color to h3 inside the unorder list*/
-
-    ul li h3{color: purple;}
 
 	/* media query: tables and larger screens (700 and above)*/
 	@media screen and(min-width:768px) {  /*header*/
@@ -150,7 +172,6 @@ color: chocolate;}
 		height: auto;
 	}
 	
-
 	.container {
 		max-width: 1200px;
 		margin: 20px auto;
@@ -182,12 +203,13 @@ color: chocolate;}
 	}
 	
 	h1 {
-		font-family: 'Open Sans', sans-serif;
+		font-family: oswald, sans-serif;
 		font-weight: 700; /* Bold */
 	}
 	
 	p {
-		font-family: 'Open Sans', sans-serif;
-		font-weight: 400; /* Regular */
+		font-family: 'lato', sans-serif;
+		font-weight: 300; /* Regular */
 	}
+	
 	
