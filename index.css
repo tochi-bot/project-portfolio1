@@ -22,17 +22,46 @@ body{font-family: lato, sans-serif; font-weight: 300;
 	#logo{
 		float: left;
 		/* add font size to logo*/
-		font-size: 290%;
+		font-size: 250%;
+	}
+	/* style Navigation links*/
+	#nav-menu{
+		font-size: 115%;
+		letter-spacing: 5px;
+	}
+	/* set a matching line height for nav-menu and logo*/
+	#nav-menu, #logo{
+		line-height: 75px;
+	}
+	/* style lists to float to the right*/
+	#nav-menu li{
+		float: right;
+		/* Remove bullet points from the list*/
+		list-style-type: none;
+		/* give space between the list items*/
+		margin-right: 15px;
+	}
+	/* styling the <a> */
+	#nav-menu a{
+		text-decoration: none;
+		color: rgb(165, 75, 42);
+
+	}
+	#nav-menu a:{
+		border-bottom: solid #3a3a3a;
+	}
+	.active{
+		border-bottom: solid #3a3a3a;
 	}
 
 header { color: rgb(165, 75, 42); padding: 0 1em;
 	 display: flex; justify-content: space-between; align-items: baseline; 
 	 flex-direction: row; position: relative; top: 20%; z-index: 99; width: 100%;;
 	box-shadow: 0 2px 2px; color:black } 
-
+	
 
 /* add display: block; to Display the links as block elements which makes the whole link area clickable*/
-  li a {
+li a {
 	display: block;
 	background-color: #dddddd;
   }
@@ -72,6 +101,7 @@ li {
 			color: rgb(106, 68, 30);
 			display: flex;
 		}
+
 
 
 		footer {
